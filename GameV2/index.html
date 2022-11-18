@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="style.css" rel="stylesheet" />
+		<title>Learning HTML and CSS</title>
+	</head>
+	<body>
+		<!-- Hidden Window -->
+		<div class="modal hidden">
+			<button class="close-modal">&times;</button>
+			<p class="winner">This is Some Text</p>
+		  </div>
+		  <div class="overlay hidden"></div>
+		  <!-- Hidden Window -->
+		<main>
+			<div class="header">
+				<p class ="java">Javascript Dice Game!</p>
+			  </div>
+		<div class="container">
+			<!-- LEFT SECTION -->
+			<div class="player player--0 player--active">
+				<h2 class="name" id="name--0">Player 1</h2>
+				        <p class="score" id="score--0">43</p>
+						<div class="current">
+							<p class="current-label">Current</p>
+							<p class="current-score" id="current--0">0</p>
+							<div class="fadeIn">
+								<img src="dice-5.png" alt="Playing dice" class="dice2" />
+								<img src="trophy1.png" alt="" class="trophy2" />
+							  </div>
+						  </div>
+						 
+
+
+			</div>
+			<!-- MIDDLE SECTION -->
+			<div class="box box-2">
+
+			<button class="btn btn--new">🔄 New Game 🔄  </button>
+			<button class="btn btn--roll">🎲 Roll Dice 🎲</button>
+			<button class="btn btn--hold">📥 Hold 📥 </button>
+			<button class="btn btn--high">🔥 High Score 🔥</button>
+		</div>
+			<!-- RIGHT SECTION -->
+			<div class="player player--1 player--active">
+				<h2 class="name" id="name--1">Player 2</h2>
+				<p class="score" id="score--1">24</p>
+				<div class="fadeIn">
+					<img src="dice-5.png" alt="Playing dice" class="dice3" />
+					<img src="trophy.png" alt="" class="trophy3" />
+				  </div>
+				<div class="current">
+					<p class="current-label">Current</p>
+					<p class="current-score" id="current--1">0</p>
+				  </div>
+				
+
+			</div>
+		</div>
+		<footer class="footer">Daz 2022</footer>
+
+		<!-- <div class="bottom"></div> -->
+		</div>
+	</main>
+	<script src="script.js"></script>
+
+	</body>
+</html>
